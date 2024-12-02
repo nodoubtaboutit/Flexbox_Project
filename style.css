@@ -87,6 +87,28 @@
     margin: 25px;
     font-weight:300;
 }
+.quote{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display:flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    
+
+}
+.quote_text{
+    align-self:  center;
+    font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
+    width: 800px;
+
+}
+.author{
+    width: 750px;
+    align-self: flex-end;
+    
+}
 a {
     padding: 12px;
     font-size: 18px;
