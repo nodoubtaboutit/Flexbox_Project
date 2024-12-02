@@ -1,5 +1,5 @@
 .body{
-   background-color: green;
+   
         
 }
 
@@ -57,6 +57,35 @@
     padding: 100px;
     padding-left: 200px;
     padding-right: 200px;
+}
+.image {
+    display:flex;
+    justify-content: center;
+   
+}
+.info{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+.cont1 {
+    margin: 25px;
+    width: 160px;
+    height: 160px;
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+}
+.text{
+    display:flex;
+    justify-content: center;
+}
+.text1{
+    width:160px;
+    height: 160px;
+    font-size: 18px;
+    margin: 25px;
+    font-weight:300;
 }
 a {
     padding: 12px;
