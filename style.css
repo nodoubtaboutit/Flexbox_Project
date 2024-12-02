@@ -1,24 +1,66 @@
 .body{
-    font-family: "Roboto",sans-serif;
+   background-color: green;
+        
 }
+
 .header {
+    
     display:flex;
     align-items: center;
     justify-content:space-between;
-    height: 60px;
     font-size: 24px;
     background-color: #1F2937;
     color: #F9FAF8;
-    padding-left: 40px;
+    padding-left: 300px;
+    padding-right: 300px;
     
 }
-.head-links{
-    padding: 24px;
+.hero {
+    display: flex;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    align-items:center;
+    justify-content: space-between;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-bottom: 100px;
     
 }
-
-a {
+.awesome{
+    font-size: 48px;
+    font-weight: 900;
+    max-width: 350px;
+    margin-bottom:0;
+}
+.hero-left{
+    display: flex;
+    flex-direction: column;
     font-size: 18px;
-       text-decoration-style: none;
+    color: #e5e7eb;
+   
+}
+.sign{
+    margin-top: 0;
+    max-width: 100px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.p1{
+    max-width: 450px;
+}
+.hero-right{
+    background-color: #686a6e;
+    padding: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+a {
+    padding: 12px;
+    font-size: 18px;
+       text-decoration: none;
     color: #e5e7eb;
 }
